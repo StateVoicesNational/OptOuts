@@ -14,7 +14,7 @@ optout_endpoint = '/people/optouts'
 
 # Read in the opt-out data CSV file
 # File must contain VANID, Committee, & OptOut Date columns
-# Can BQ table query be used instead of a csv?
+# Can BQ table query be referenced & used instead of a csv?
 optout_data = pd.read_csv('optout_data.csv')
 
 # Loop through the opt-out data and update the appropriate voter records
